@@ -34,7 +34,7 @@
   /* it start from 0% to 100%, 0% means black and 100% means white */
 }
 .dark-mode {
-  --color-primary: hsl(var(--color-hue), 49%, 43%);
+  --color-primary: hsl(var(--color-hue), 49%, 48%);
   --color-primary-light: hsl(var(--color-hue), 49%, 50%);
   --color-body: hsl(var(--color-hue), 49%, 10%);
   --color-text: hsl(var(--color-hue), 20%, 90%);
