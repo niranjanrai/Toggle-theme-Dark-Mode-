@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary-color: #3d8db8;
+  /* hexcode */
+  /* -- red  start 2 digit */
+  /* -- green middle 2 digit*/
+  /* -- blue  last 2 digit*/
+
+  /* ........................................  */
+  /* RGB */
+  /* rgb(0-255) */
+  /* rgb(255,255,255) // pure white  */
+  /* rgb(0,0,0) // pure black  */
+  /* rgb(100,100,100) // grayish shade  */
+
+  /* ..........................................  */
+  /* HSL  */
+  /* Hue Saturation Light */
+  /* hsl(60, 50%, 48%); */
+  /* hue --> first value, it represent color */
+  /* 0-360 */
+  /* 0 --> red */
+  /* 60 --> yellow */
+  /* 120 --> green */
+  /* 180 --> cyan */
+  /* 240 --> blue */
+  /* 300 --> magenta */
+}
+
+h2 {
+  color: var(--primary-color);
+}
