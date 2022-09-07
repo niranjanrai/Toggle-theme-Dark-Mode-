@@ -3,7 +3,9 @@ body {
 }
 
 :root {
-  --primary-color: #3d8db8;
+  --hue-color: 218;
+  --color-primary: hsl(var(--hue-color), 49%, 43%);
+  --color-primary-light: hsl(var(--hue-color), 49%, 50%);
   /* hexcode */
   /* -- red  start 2 digit */
   /* -- green middle 2 digit*/
@@ -28,8 +30,27 @@ body {
   /* 180 --> cyan */
   /* 240 --> blue */
   /* 300 --> magenta */
+  /* Saturation means the purity amount of hue (color */
+
+  /* light  */
+  /* it start from 0% to 100%, 0% means black and 100% means white */
 }
 
 h2 {
-  color: var(--primary-color);
+  color: var(--color-primary);
+}
+.toggle-theme {
+  border: none;
+  outline: none;
+  font-size: inherit;
+  padding: 1rem 1.5rem;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.toggle-theme:hover {
+  background: hsl(218, 49%, 50%);
 }
